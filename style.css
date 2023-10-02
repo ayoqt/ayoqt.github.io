@@ -1,0 +1,44 @@
+h1{
+    color: rgb(25, 25, 124);   /* Changes color of the font */
+}
+
+#info{
+    line-height: 1.5em; /* 150% of your original size. em = (original size) x 1.5 */
+}
+
+a{
+    text-decoration: none;  /* Removes underline of hyperlinks */
+    color: rgb(232, 67, 163);
+}
+
+a:hover{
+    color: red;  /* Changes color when link is hovered */
+}
+
+body{
+    background-color: beige;    /* Changes background color */
+    padding-left: 150px;
+    padding-right: 10px;
+}
+
+h2{
+    color: rgb(93, 93, 219);
+    border-bottom: 1px solid;
+    margin-top: 1.5em;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;          /* Distance from the top */
+    left: 0;         /* Distance from the left */
+
+    background-color: bisque;
+    height: 100%; /* Creates a panel */
+    width: 100px;
+
+    font-size: 1.2em; /* 20% larger */
+    line-height: 1.5em;
+
+    padding-top: 20px;
+    padding-left: 10px;
+}
